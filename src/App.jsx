@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import Contract from './pages/Contract'
 import Home from './pages/Home'
 import Introduction from './pages/Introduction'
+import IntroductionsViewer from './pages/IntroductionsViewer'
 import Students from './pages/Students'
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
         <Route path="introduction" element={<Introduction />} />
         <Route path="contract" element={<Contract />} />
         <Route path="students" element={<Students />} />
+        <Route path="introductions-viewer" element={<IntroductionsViewer />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>

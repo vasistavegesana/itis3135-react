@@ -7,6 +7,7 @@ const primaryLinks = [
   { label: 'Introduction', to: '/introduction' },
   { label: 'Contract', to: '/contract' },
   { label: 'Students', to: '/students' },
+  { label: 'Introductions Viewer', to: '/introductions-viewer' },
 ]
 
 const secondaryLinks = [
